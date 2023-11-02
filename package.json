@@ -1,0 +1,11 @@
+{
+  "name": "proyecto_3_coder",
+  "version": "1.0.0",
+  "description": "proyecto colegio",
+  "main": "app.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

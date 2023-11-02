@@ -1,0 +1,11 @@
+.container_demo {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario_alumno {
+  display: flex;
+  gap: 50px;
+}
