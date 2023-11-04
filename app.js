@@ -2,7 +2,7 @@ const d = document;
 const $formulario = d.querySelector("#formulario");
 
 const resultados = d.getElementById("resultados_alumnos");
-let salon = [];
+const salon = [];
 
 d.addEventListener("DOMContentLoaded", () => {
   cagarSalon();

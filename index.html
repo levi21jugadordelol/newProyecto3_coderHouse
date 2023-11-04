@@ -141,9 +141,12 @@
                     </div>
 
                     <div class="mb-3 row mt-3">
-                      <div class="offset-sm-6 col-sm-8">
-                        <button type="submit" class="btn btn-primary">
+                      <div class="offset-sm-5 col-sm-8">
+                        <button type="submit" class="enviar btn btn-primary">
                           enviar datos
+                        </button>
+                        <button type="submit" class="guardar btn btn-success">
+                          guardar datos
                         </button>
                       </div>
                     </div>
@@ -194,18 +197,18 @@
 
                     <!--cuerpo del tablero-->
                     <tbody id="resultado_Alumnos">
-                      <!-- <tr>
+                      <tr>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>
+                        <!-- <td>
                           <i class="bi bi-pencil-square" id="icons"></i>
                           <i class="bi bi-trash" id="icons"></i>
-                        </td>
-                      </tr> -->
+                        </td> -->
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -214,6 +217,44 @@
           </div>
         </div>
       </section>
+
+      <!---------ventana modal----------->
+
+      <div class="position-absolute w-100 top translate" id="modal">
+        <form class="form-control w-50">
+          <h1 class="text-center">editando registro</h1>
+
+          <div class="form-control border-white">
+            <label for="">nombre :</label>
+            <input id="modal_nombre" type="text" class="form-control w-50" />
+          </div>
+
+          <div class="form-control border-white">
+            <label for="">codigo :</label>
+            <input id="modal_codigo" type="number" class="form-control w-50" />
+          </div>
+
+          <div class="form-control border-white">
+            <label for="">nota 1 :</label>
+            <input id="modal_nota_1" type="number" class="form-control w-50" />
+          </div>
+
+          <div class="form-control border-white">
+            <label for="">nota 2 :</label>
+            <input id="modal_nota_2" type="number" class="form-control w-50" />
+          </div>
+
+          <div class="form-control border-white">
+            <label for="">nota 3 :</label>
+            <input id="modal_nota_3" type="number" class="form-control w-50" />
+          </div>
+
+          <div class="form-control border-white">
+            <button class="btn btn-primary actualizar">guardar</button>
+          </div>
+        </form>
+        <button class="position-absolute btn btn-danger close">close</button>
+      </div>
     </main>
     <footer>
       <!-- place footer here -->
@@ -224,6 +265,7 @@
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
     ></script>
-    <script src="./app.js"></script>
+    <!-- <script src="./app.js"></script>-->
+    <script src="./appPrueba.js"></script>
   </body>
 </html>
