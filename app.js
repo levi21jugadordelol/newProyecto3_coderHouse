@@ -28,7 +28,7 @@ const infoAlumno = () => {
     nota2: d.getElementById("nota_2").value,
     nota3: d.getElementById("nota_3").value,
   };
-  // console.log(infoAlumno);
+  console.log(infoAlumno);
 
   salon.push({ ...infoAlumno });
 };

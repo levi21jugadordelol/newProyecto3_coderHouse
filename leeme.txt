@@ -1,2 +1,3 @@
 https://www.youtube.com/watch?v=eQFLGfkqrFk ->para crear de manera dinamica la lista de notas
-https://www.youtube.com/watch?v=Zxuxi4aRqSM ->para abrir una ventana modal en dar click modficiar
+https://www.youtube.com/watch?v=Zxuxi4aRqSM ->para abrir una ventana modal en dar click modficia
+
